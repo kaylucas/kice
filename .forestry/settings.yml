@@ -16,6 +16,10 @@ sections:
   match: "**/*"
   templates:
   - post
+- type: document
+  path: content/recipe/**/*
+  label: Recipes
+  match: "**/*"
 - type: heading
   label: Data
 - type: directory
